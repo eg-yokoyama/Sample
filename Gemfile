@@ -63,6 +63,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # show error
   gem 'better_errors'
+  # pry
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'pry-doc'
 end
 
 group :test do
