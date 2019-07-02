@@ -28,7 +28,6 @@ RUN gem install bundler
 RUN mkdir /sample
 WORKDIR /sample
 COPY Gemfile Gemfile
-COPY Gemfile.lock Gemfile.lock
 RUN bundle install
 
 ADD . /sample
