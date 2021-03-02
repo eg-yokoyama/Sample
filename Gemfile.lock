@@ -1181,15 +1181,13 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.5.0)
     minitest (5.14.4)
     mysql2 (0.4.10)
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.1.0)
     nio4r (2.5.5)
-    nokogiri (1.11.1)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pry (0.13.1)
@@ -1308,7 +1306,7 @@ GEM
     yard (0.9.26)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   aws-sdk
@@ -1342,4 +1340,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.17.2
+   2.2.12
